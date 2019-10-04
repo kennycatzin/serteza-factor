@@ -3,7 +3,7 @@ import { Usuario } from '../../models/usuario.model';
 import { HttpClient } from '@angular/common/http';
 import { URL_SERVICIOS } from '../../../config/config';
 import { map } from 'rxjs/operators';
-import * as swal from 'sweetalert2';
+import swal from 'sweetalert2';
 import { Router } from '@angular/router';
 
 @Injectable({

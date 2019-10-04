@@ -1,140 +1,370 @@
-<div class="col-12 justify-content-center">
-    <div class="col-12">
-        <form>
-            <mat-tab-group>
-                <mat-tab label="Datos personales">
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail4">Nombres</label>
-                            <input type="text" class="form-control" id="txtNombres" placeholder="Nombres">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Apellido paterno</label>
-                            <input type="text" class="form-control" id="txtApellidoPaterno" placeholder="Apellido paterno">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Apellido materno</label>
-                            <input type="text" class="form-control" id="txtApellidoMaterno" placeholder="Apellido materno">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail4">Correo</label>
-                            <input type="email" class="form-control" id="txtCorreo" placeholder="Correo">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Telefono</label>
-                            <input type="number" class="form-control" id="txtTelefono" placeholder="Telefono">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Nacionalidad</label>
-                            <input type="text" class="form-control" id="txtNacionalidad" placeholder="Nacionalidad">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail4">Otra nacionalidad</label>
-                            <input type="text" class="form-control" id="txtOtraNacionalidad" placeholder="Otra nacionalidad">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Pais de nacimiento</label>
-                            <input type="text" class="form-control" id="txtPaisNacimiento" placeholder="Pais de nacimiento">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Fecha de nacimiento</label>
-                            <input type="date" class="form-control" id="txtFechaNacimiento" placeholder="Fecha de nacimiento">
-                        </div>
-                    </div>
-                </mat-tab>
-                <mat-tab label="Dirección">
-                    <div class="form-row">
-                        <div class="form-group col-md-3">
-                            <label for="inputEmail4">Calle</label>
-                            <input type="text" class="form-control" id="txtCalle" placeholder="Calle">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputPassword4">Numero interior</label>
-                            <input type="text" class="form-control" id="txtNumeroInterior" placeholder="Numero interior">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputPassword4">Numero exterior</label>
-                            <input type="text" class="form-control" id="txtNumeroExterior" placeholder="Numero exterior">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputPassword4">Codigo postal</label>
-                            <input type="number" class="form-control" id="txtCodigoPostal" placeholder="Codigo postal">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Colonia</label>
-                            <input type="text" class="form-control" id="txtColonia" placeholder="Colonia">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Delegacion</label>
-                            <input type="text" class="form-control" id="txtDelegacion" placeholder="Delegacion">
-                        </div>
-
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Poblacion</label>
-                            <input type="text" class="form-control" id="txtPoblacion" placeholder="Poblacion">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Estado</label>
-                            <input type="text" class="form-control" id="txtEstado" placeholder="Estado">
-                        </div>
-
-                    </div>
-                </mat-tab>
-                <mat-tab label="Datos laborales">
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail4">Ocupacion</label>
-                            <input type="text" class="form-control" id="txtOcupacion" placeholder="Ocupacion">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">FIEL</label>
-                            <input type="text" class="form-control" id="txtFiel" placeholder="FIEL">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Ingreso anual</label>
-                            <input type="number" class="form-control" id="txtIngresoAnual" placeholder="Ingreso anual">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="inputEmail4">RFC</label>
-                            <input type="text" class="form-control" id="txtRfc" placeholder="RFC">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">CURP</label>
-                            <input type="text" class="form-control" id="txtCurp" placeholder="CURP">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Nombre de la tercera persona que firma</label>
-                            <input type="text" class="form-control" id="txtTercera" placeholder="Nombre de la tercera persona que firma">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Registro fiscal extranjero</label>
-                            <input type="text" class="form-control" id="txtRegistroExtranjero" placeholder="Registro fiscal extranjero">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">TIN</label>
-                            <input type="text" class="form-control" id="txtTin" placeholder="TIN">
-                        </div>
-
-                    </div>
-                </mat-tab>
-            </mat-tab-group>
-            <div class="col-10 align-content-center">
-                <button type="submit" class="btn btn-primary">Registrar</button>
-                <button type="button" class="btn btn-light">Limpiar campos</button>
-
-            </div>
-        </form>
+<div class="row page-titles">
+    <div class="col-md-5 align-self-center">
+        <h3 class="text-themecolor">Solicitudes</h3>
     </div>
 </div>
+<div class="row" id="validation">
+    <div class="col-12">
+        <div class="card wizard-content">
+            <div class="card-header bg-info">
+                <h4 class="m-b-0 text-white">Solicitud de vida</h4>
+            </div>
+            <div class="card-body">
+                <h6 class="card-subtitle">Llene la siguiente información</h6>
+                <div class="row" id="validation">
+                    <div class="col-12">
+                        <div class="card wizard-content">
+                            <div class="card-body">
+                                <form>
+                                    <mat-tab-group>
+                                        <mat-tab label="Formulario 1">
+                                            <br>
+                                            <h3 class="box-title">Datos personales</h3>
+                                            <hr class="m-t-0 m-b-40">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Nombres</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control" placeholder="John doe">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group has-danger row">
+                                                        <label class="control-label text-right col-md-3">A. Paterno</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control form-control-danger" placeholder="12n">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+
+                                            </div>
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">A. Materno</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select">
+                                                                                        <option value="">Male</option>
+                                                                                        <option value="">Female</option>
+                                                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Correo</label>
+                                                        <div class="col-md-9">
+                                                            <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Teléfono</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                                                        <option value="Category 1">Category 1</option>
+                                                                                        <option value="Category 2">Category 2</option>
+                                                                                        <option value="Category 3">Category 5</option>
+                                                                                        <option value="Category 4">Category 4</option>
+                                                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Nacionaliad</label>
+                                                        <div class="col-md-9">
+                                                            <div class="radio-list">
+                                                                <label class="custom-control custom-radio">
+                                                                                            <input id="radio3" name="radio" type="radio" checked="" class="custom-control-input">
+                                                                                            <span class="custom-control-indicator"></span>
+                                                                                            <span class="custom-control-description">Free</span>
+                                                                                        </label>
+                                                                <label class="custom-control custom-radio">
+                                                                                            <input id="radio4" name="radio" type="radio" class="custom-control-input">
+                                                                                            <span class="custom-control-indicator"></span>
+                                                                                            <span class="custom-control-description">Paid</span>
+                                                                                        </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+
+                                                <!--/span-->
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Otra nacionalidad</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                                                        <option value="Category 1">Category 1</option>
+                                                                                        <option value="Category 2">Category 2</option>
+                                                                                        <option value="Category 3">Category 5</option>
+                                                                                        <option value="Category 4">Category 4</option>
+                                                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Pais de nacimiento</label>
+                                                        <div class="col-md-9">
+                                                            <div class="radio-list">
+                                                                <label class="custom-control custom-radio">
+                                                                                            <input id="radio3" name="radio" type="radio" checked="" class="custom-control-input">
+                                                                                            <span class="custom-control-indicator"></span>
+                                                                                            <span class="custom-control-description">Free</span>
+                                                                                        </label>
+                                                                <label class="custom-control custom-radio">
+                                                                                            <input id="radio4" name="radio" type="radio" class="custom-control-input">
+                                                                                            <span class="custom-control-indicator"></span>
+                                                                                            <span class="custom-control-description">Paid</span>
+                                                                                        </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Fecha de nacimiento</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
+                                                                                            <option value="Category 1">Category 1</option>
+                                                                                            <option value="Category 2">Category 2</option>
+                                                                                            <option value="Category 3">Category 5</option>
+                                                                                            <option value="Category 4">Category 4</option>
+                                                                                        </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+
+
+                                            </div>
+
+                                        </mat-tab>
+                                        <mat-tab label="Formulario 2">
+                                            <br>
+                                            <h3 class="box-title">Domicilio</h3>
+                                            <hr class="m-t-0 m-b-40">
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Calle</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Número interior</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Número exterior</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Código postal</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Colonia</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Delegación</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select">
+                                                                                        <option>Country 1</option>
+                                                                                        <option>Country 2</option>
+                                                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Población</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Estado</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select">
+                                                                                            <option>Country 1</option>
+                                                                                            <option>Country 2</option>
+                                                                                        </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                        </mat-tab>
+                                        <mat-tab label="Formulario 3">
+                                            <br>
+                                            <h3 class="box-title">Datos laborales</h3>
+                                            <hr class="m-t-0 m-b-40">
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Ocupación</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">FIEL</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Ingreso anual</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">RFC</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">CURP</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">3ª persona que firma</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select">
+                                                                                        <option>Country 1</option>
+                                                                                        <option>Country 2</option>
+                                                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">Registro fiscal extranjero</label>
+                                                        <div class="col-md-9">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="control-label text-right col-md-3">TIN</label>
+                                                        <div class="col-md-9">
+                                                            <select class="form-control custom-select">
+                                                                                            <option>Country 1</option>
+                                                                                            <option>Country 2</option>
+                                                                                        </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--/span-->
+                                            </div>
+                                            <!--/row-->
+                                        </mat-tab>
+                                    </mat-tab-group>
+                                    <hr>
+                                    <div class="form-actions">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-md-offset-3 col-md-9">
+                                                        <button type="submit" class="btn btn-success">Submit</button>
+                                                        <button type="button" class="btn btn-inverse">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6"> </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
